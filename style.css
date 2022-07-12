@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@500 & family= Sarala:wght@400;700 & display=swap');
+
+* {                   /* asterisco para pegar a formatacao de um modo geral*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {          /*https://cssgradient.io/*/
+    font-size: 100%;
+    background: white}
+
+.cabecalho {        /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid rgb(3, 3, 3);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-imagem {
+   height: 180px;
+   border-radius: 30px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(5, 5, 5);
+
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala' , sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #050505;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(3, 3, 3);
+    width: 180px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala' , sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(241, 4, 4);
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 200px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-secundario-titulo {
+    text-align: center;
+    border-top: 0.4px solid black ;
+    margin-top: 20px;
+    padding-top: 48px;
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(7, 0, 0);
+    margin-bottom: 20px;
+}
+
+.conteudo-secundario-paragrafo {
+    gap: 24px;
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;    
+    color: black;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid black ;
+}
+
+.rodape-imagem {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
